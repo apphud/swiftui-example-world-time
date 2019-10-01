@@ -27,7 +27,7 @@ struct ContentView : View {
     }
     
     func addNavigationButton() -> some View {
-        return NavigationButton(destination: Text("This is detailed screen")) {
+        return NavigationLink(destination: Text("This is detailed screen")) {
             Text("Go Detail")
         }      
     }
